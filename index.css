@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(jonathan-velasquez-c1ZN57GfDB0-unsplash.jpg);
+    background-position: 100%;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #f80404;
+    background-color: white;
+}
+
+form {
+    margin: 100px;
+    padding: 10px;
+}
+
+form label,
+form input,
+form textarea {
+    display: block;
+    margin: auto;
+    width: 277px;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+   
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#search-program {
+    padding: 10px;
+    background-color: #10ff90;
+    width: 50%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid rgb(204, 204, 204);
+    padding: 10px;
+    background-color: wheat;
+    width: 51%;
+    margin-left: 24%;
+}
