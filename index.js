@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const addProgramToList = (program) => {
         const listItem = document.createElement("li");
-        listItem.innerHTML = `<strong>${program.title}</strong> (Åldersgräns: ${program.ageLimit})<br>${program.description} <button class="remove-button">Remove this</button>`;
+        listItem.innerHTML = `<strong>${program.title}</strong> (Åldersgräns: ${program.ageLimit})<br>${program.description} <button class="remove-button">Ta bort</button>`;
         programList.appendChild(listItem);
         /*Funktionen skapar ett nytt listelement och lägger till det i listan med programinformation samt en "Ta bort"knappen.*/
     };
